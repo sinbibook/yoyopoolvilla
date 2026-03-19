@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.2.0",
-    "generatedAt": "2026-03-19T06:33:17.115Z",
+    "version": "1.3.0",
+    "generatedAt": "2026-03-19T07:13:54.612Z",
     "templateType": "fullpage_visual",
     "propertyId": "3cb63f91-cc4c-49bd-a107-ab6e9ea71fce",
     "homepageId": "90a49fc8-5757-421a-96c7-246d0070d1e6"
@@ -536,7 +536,15 @@
     "templateType": "fullpage_visual",
     "images": [
       {
-        "logo": []
+        "logo": [
+          {
+            "id": "724691db-6dad-48b3-b4ba-146eba62dd9e",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/logo/1773904362913-0bev8epeftpc.png",
+            "sortOrder": 0,
+            "description": "",
+            "isSelected": true
+          }
+        ]
       }
     ],
     "seo": {
@@ -664,7 +672,7 @@
                     "isSelected": true
                   }
                 ],
-                "description": "YOYO \nKids \nPoolvilla"
+                "description": "Made for kids and \nfamily moments.\nYOYO Kids Poolvilla"
               },
               "gallery": {
                 "title": "",
