@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.6.0",
-    "generatedAt": "2026-03-19T07:25:50.546Z",
+    "version": "1.7.0",
+    "generatedAt": "2026-03-19T07:30:55.850Z",
     "templateType": "fullpage_visual",
     "propertyId": "3cb63f91-cc4c-49bd-a107-ab6e9ea71fce",
     "homepageId": "90a49fc8-5757-421a-96c7-246d0070d1e6"
@@ -647,14 +647,14 @@
                     "id": "e9fbb54f-2f61-4bed-b583-7350a2e84c22",
                     "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/index_essence/1773901075652-s3hcmywduo.jpg",
                     "sortOrder": 0,
-                    "description": "",
+                    "description": "하루 한 팀만을 위한 프라이빗 독채, 요요키즈풀빌라 펜션.\n아이들의 즐거움과 가족의 편안한 휴식이 함께하는 특별한 공간입니다.\n주변 방해 없이 우리 가족만의 여행을 오롯이 즐길 수 있습니다.\n놀이와 휴식, 여유를 모두 담은 하루를 경험해보세요.\n요요에서의 시간은 가족 모두에게 오래 남을 소중한 추억이 됩니다.",
                     "isSelected": true
                   },
                   {
                     "id": "f66a738a-f1a0-452a-a200-dbaf1cb98ee5",
                     "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/index_essence/1773901075652-9ql95wyoj3b.jpg",
                     "sortOrder": 1,
-                    "description": "",
+                    "description": "실내수영장, 야외마당, 테라스 바비큐, 감성 캠프파이어, 키즈 놀이시설까지\n가족 여행에 필요한 즐거움과 편안함을 한 공간에 모두 담았습니다.\n아이들은 신나게 뛰어놀고, 어른들은 여유로운 쉼을 누릴 수 있습니다.\n사계절이 아름다운 요요에서 온가족이 함께 웃는 특별한 시간을 만들어보세요.\n프라이빗한 독채 공간이기에 더욱 자유롭고 편안한 여행이 완성됩니다.",
                     "isSelected": true
                   },
                   {
@@ -680,7 +680,8 @@
               },
               "signature": {
                 "title": "",
-                "images": []
+                "images": [],
+                "description": ""
               }
             }
           ]
