@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>달토글램핑 - Dalto Glamping</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles/theme.css">
+    <link rel="stylesheet" href="styles/common.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/popup.css">
+  <!-- Open Graph Meta Tags for Social Media -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="태안 요요 키즈 풀빌라 - 홈" />
+  
+  <meta property="og:image" content="https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/property/3cb63f91-cc4c-49bd-a107-ab6e9ea71fce/thumbnail/1773899490223-x4ogrwvnr1c.jpg" />
+  <meta property="og:url" content="https://yoyopoolvilla.kr" />
+
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="태안 요요 키즈 풀빌라 - 홈" />
+  
+  <meta name="twitter:image" content="https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/property/3cb63f91-cc4c-49bd-a107-ab6e9ea71fce/thumbnail/1773899490223-x4ogrwvnr1c.jpg" />
+</head>
+<body>
+    <!-- Navigation (Header) - page-wrapper 밖으로 분리 -->
+    <div class="navigation-off">
+        <div id="header-container"></div>
+    </div>
+
+    <div class="page-wrapper">
+        <!-- CUSTOM FIELD : 메인 소개 섹션 이미지 매핑 -->
+        <div class="main-section">
+            <div class="main-bg" data-hero-slider></div>
+            <div class="main-content">
+                <!-- custom field : 메인 소개 섹션 타이틀 매핑 -->
+                <h1 class="main-title" data-hero-title></h1>
+                <div class="title-divider"><div class="bar-progress"></div></div>
+                <!-- custom field : 메인 소개 섹션 설명 매핑 -->
+                <p class="main-subtitle" data-hero-description></p>
+            </div>
+            <div class="main-arrow">
+                <div class="arrow-left"></div>
+                <p class="arrow-number">01</p>
+                <div class="arrow-divider"></div>
+                <p class="arrow-number">10</p>
+                <div class="arrow-right"></div>
+            </div>
+        </div>
+
+        <!-- custom field : 핵심 메시지 섹션 -->
+        <div class="content-1 essence-section">
+            <div class="gradient-circle anim-scale-in"></div>
+
+            <div class="content-1-inner">
+                <div class="content-group">
+                    <div class="title-text" data-essence-description></div>
+                    <!-- custom field : 핵심 메시지 섹션 이미지 1 매핑 , 이미지는 총 4개까지만-->
+                    <div class="content-image large anim-fade-right">
+                        <img data-essence-image-1 src="" alt="">
+                    </div>
+                </div>
+
+                <div class="con1-item con1-1">
+                    <!-- custom field : 핵심 메시지 섹션 이미지 2 매핑 -->
+                    <div class="content-image anim-fade-left">
+                        <img data-essence-image-2 src="" alt="">
+                    </div>
+                    <div class="content-text anim-fade-right">
+                        <h3 class="chapter-tag"># Chapter1</h3>
+                        <!-- custom field : 핵심 메시지 섹션 이미지 1 설명 매핑 -->
+                        <p class="chapter-content" data-essence-image-description-1></p>
+                    </div>
+                </div>
+
+                <div class="con1-34">
+                    <div class="con1-item con1-3">
+                        <div class="content-text right anim-fade-left">
+                            <h3 class="chapter-tag"># Chapter2</h3>
+                            <!-- custom field : 핵심 메시지 섹션 이미지 2 설명 매핑 -->
+                            <p class="chapter-content" data-essence-image-description-2></p>
+                        </div>
+                        <!-- custom field : 핵심 메시지 섹션 이미지 3 매핑 -->
+                        <div class="content-image tall anim-fade-right">
+                            <img data-essence-image-3 src="" alt="">
+                        </div>
+                    </div>
+
+                    <div class="con1-item con1-4">
+                        <!-- custom field : 핵심 메시지 섹션 이미지 4 매핑 -->
+                        <div class="content-image wide anim-fade-up">
+                            <img data-essence-image-4 src="" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- room preview section : 커스텀 영역 x / 룸 정보 매핑 -->
+        <div class="content-2 room-preview-section" >
+            <div class="content-2-bg"></div>
+            <div class="section-header">
+                <div class="section-header-outer">
+                    <div class="section-header-inner">
+                        <div class="text-block">
+                            <h2 class="section-title">Room Preview</h2>
+                            <!-- 문구 변경되어야 함 (숙소명 + 하드코딩 문구 )-->
+                            <p class="section-subtitle" data-rooms-subtitle></p>
+                        </div>
+                        <div class="arrow-block">
+                            <button class="nav-btn prev"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M15 6L9 12L15 18" stroke="currentColor" stroke-width="1"/></svg></button>
+                            <button class="nav-btn next"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M9 6L15 12L9 18" stroke="currentColor" stroke-width="1"/></svg></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="room-grid">
+                <div class="room-scroll-track" data-rooms-container>
+                    <!-- 숙소관리 객실 타입 개수에 따라 동적 생성 -->
+                </div>
+            </div>
+        </div>
+
+        <!-- facility section : 커스텀 영역 x / 부대시설 정보 매핑 -->
+        <div class="content-3 facility-section">
+            <div class="special-left">
+                <div class="special-header anim-fade-up">
+                    <!-- 하드코딩, 매핑 x -->
+                    <h2>Special Here</h2>
+                    <p>머무는 동안 다양한 부대시설을 함께 즐길 수 있습니다.</p>
+                </div>
+
+                <div class="meditation-image anim-scale-in">
+                    <!-- 부대시설 이미지 동적 생성 (mapper) -->
+                </div>
+
+                <div class="meditation-info anim-fade-right">
+                    <!-- 부대시설 정보 동적 생성 (mapper) -->
+                </div>
+                <!-- 하드코딩, 매핑 x -->
+                <p class="special-script">Special Here</p>
+
+                <div class="arrow-decoration">
+                    <svg width="856" height="250" viewBox="0 0 856 250" fill="none" style="overflow:visible">
+                        <circle cx="731" cy="125" r="125" fill="white" fill-opacity="0.4"/>
+                        <path d="M0 146.5C0 146.5 448.741 146.5 776 146.5L700 89.9999" stroke="black"/>
+                    </svg>
+                </div>
+            </div>
+
+            <div class="special-right anim-fade-right">
+                <div class="special-right-image">
+                    <!-- 부대시설 오른쪽 이미지 동적 생성 (mapper) -->
+                    <div class="image-overlay"></div>
+                </div>
+                <div class="special-bar">
+                    <div class="bar-line"><div class="bar-progress"></div></div>
+                    <div class="bar-controls">
+                        <button><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M15 6L9 12L15 18" stroke="currentColor" stroke-width="1"/></svg></button>
+                        <button><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M9 6L15 12L9 18" stroke="currentColor" stroke-width="1"/></svg></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- custom field : 마무리 섹션 -->
+        <div class="content-4 closing-section">
+            <!-- custom field : 마무리 섹션 이미지 한장 매핑 -->
+            <div class="content-4-bg" data-closing-image></div>
+            <div class="content-4-text">
+                <!-- custom field : 마무리 섹션 제목 매핑 -->
+                <h2 data-closing-title></h2>
+                <!-- custom field : 마무리 섹션 내용 매핑 -->
+                <p data-closing-description></p>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div id="footer-container"></div>
+    </div>
+
+    <!-- Popup -->
+    <div id="popup-container"></div>
+
+    <!-- Scripts -->
+    <script src="js/common.js"></script>
+    <script src="js/pages/index.js"></script>
+
+    <!-- Data Mapper -->
+    <script src="js/image-helpers.js"></script>
+    <script src="js/data-mapper/core/base-mapper.js"></script>
+    <script src="js/data-mapper/pages/index-mapper.js"></script>
+    <script src="js/preview-handler.js"></script>
+
+    <!-- Header / Footer Loader (header.html 로드 → 내부 스크립트 추출 실행 → HeaderFooterMapper 초기화) -->
+    <script src="js/header-footer-loader.js"></script>
+
+    <!-- Popup -->
+    <script src="js/popup.js"></script>
+</body>
+</html>

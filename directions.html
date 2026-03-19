@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DALTO GLAMPING - Directions</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles/theme.css">
+    <link rel="stylesheet" href="styles/common.css">
+    <link rel="stylesheet" href="styles/directions.css">
+  <!-- Open Graph Meta Tags for Social Media -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="태안 요요 키즈 풀빌라 - 오시는길" />
+  
+  <meta property="og:image" content="https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/property/3cb63f91-cc4c-49bd-a107-ab6e9ea71fce/thumbnail/1773899490223-x4ogrwvnr1c.jpg" />
+  <meta property="og:url" content="https://yoyopoolvilla.kr" />
+
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="태안 요요 키즈 풀빌라 - 오시는길" />
+  
+  <meta name="twitter:image" content="https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/property/3cb63f91-cc4c-49bd-a107-ab6e9ea71fce/thumbnail/1773899490223-x4ogrwvnr1c.jpg" />
+</head>
+<body>
+    <!-- Navigation (Header) - page-wrapper 밖으로 분리 -->
+    <div class="navigation-off">
+        <div id="header-container"></div>
+    </div>
+
+    <div class="page-wrapper">
+        <!-- CUSTOM FIELD : 오시는길 메인소개 섹션 이미지 (슬라이드쇼) -->
+        <div class="main-section">
+            <!-- custom field : 히어로 슬라이더 이미지 동적 생성 (mapper) -->
+            <div class="main-bg" data-hero-slider></div>
+            <div class="main-content">
+                <!-- custom field : 오시는길 타이틀 매핑 -->
+                <h1 class="main-title" data-directions-title></h1>
+                <div class="title-divider"><div class="bar-progress"></div></div>
+                <!-- custom field : 오시는길 설명 매핑 -->
+                <p class="main-subtitle" data-directions-description></p>
+            </div>
+            <div class="main-arrow">
+                <div class="arrow-left"></div>
+                <p class="arrow-number">01</p>
+                <div class="arrow-divider"></div>
+                <p class="arrow-number">10</p>
+                <div class="arrow-right"></div>
+            </div>
+        </div>
+
+        <!-- Con (Content) - 오시는 길 -->
+        <div class="section-con">
+            <div class="directions-info">
+                <!-- 하드코딩, 매핑 x -->
+                <p class="page-title">Directions</p>
+                <p class="address-text">
+                    <span class="address-row">
+                        <!-- 하드코딩, 매핑 x -->
+                        <span class="bold">도로명 주소 : </span>
+                        <!-- 숙소설정 상세주소 매핑 -->
+                        <span class="medium" data-directions-address></span>
+                    </span>
+                    <span class="address-row">
+                        <!-- 하드코딩, 매핑 x -->
+                        <span class="bold">전화 : </span>
+                        <!-- 숙소설정 운영정보 전화번호 매핑 -->
+                        <span class="medium" data-directions-phone></span>
+                    </span>
+                </p>
+            </div>
+
+            <div class="map-container">
+                <!-- kakao map : property.latitude, property.longitude 매핑 -->
+                <div class="map-img-wrapper">
+                    <div id="kakao-map" style="width:100%;height:100%"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 홈 / 마무리 섹션과 동일하게 매핑 -->
+        <div class="content-4 closing-section">
+            <!-- custom field : 마무리 섹션 이미지 매핑 -->
+            <div class="content-4-bg" data-closing-image></div>
+            <div class="content-4-text">
+                <!-- custom field : 마무리 섹션 제목 매핑 -->
+                <h2 data-closing-title></h2>
+                <!-- custom field : 마무리 섹션 내용 매핑 -->
+                <p data-closing-description></p>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div id="footer-container"></div>
+    </div>
+
+    <!-- Kakao Map SDK -->
+    <script type="text/javascript" src="js/kakao-maps-sdk.js"></script>
+
+    <!-- Scripts -->
+    <script src="js/common.js"></script>
+    <script src="js/pages/directions.js"></script>
+
+    <!-- Data Mapper -->
+    <script src="js/image-helpers.js"></script>
+    <script src="js/data-mapper/core/base-mapper.js"></script>
+    <script src="js/data-mapper/pages/directions-mapper.js"></script>
+    <script src="js/preview-handler.js"></script>
+
+    <!-- Header / Footer Loader -->
+    <script src="js/header-footer-loader.js"></script>
+</body>
+</html>

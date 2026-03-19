@@ -1,0 +1,13 @@
+/* CDN Fonts */
+@import url('https://hangeul.pstatic.net/hangeul_static/css/maru-buri.css');
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap');
+
+/* CSS Variables */
+:root {
+  --font-ko-main: 'MaruBuri', sans-serif;
+  --font-ko-sub: 'Pretendard', sans-serif;
+  --font-en-main: 'Cormorant', sans-serif;
+  --color-primary: #EDEDED;
+  --color-secondary: #47506B;
+}
