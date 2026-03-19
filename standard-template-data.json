@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.0.0",
-    "generatedAt": "2026-03-19T06:04:56.095Z",
+    "version": "1.1.0",
+    "generatedAt": "2026-03-19T06:30:10.696Z",
     "templateType": "fullpage_visual",
     "propertyId": "3cb63f91-cc4c-49bd-a107-ab6e9ea71fce",
     "homepageId": "90a49fc8-5757-421a-96c7-246d0070d1e6"
@@ -551,11 +551,11 @@
           "sections": [
             {
               "hero": {
-                "title": "",
+                "title": "Made for kids and family moments.",
                 "images": [
                   {
-                    "id": "6bfba2a7-44c7-4d40-914c-e94a6199d251",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/index_hero/1773900256876-x3zirdyq6yn.jpg",
+                    "id": "2c642b9e-7819-46f6-a073-153992eebf8a",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/index_hero/1773900141100-915ezidco2j.jpg",
                     "sortOrder": 0,
                     "description": "",
                     "isSelected": true
@@ -568,43 +568,43 @@
                     "isSelected": true
                   },
                   {
-                    "id": "2c642b9e-7819-46f6-a073-153992eebf8a",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/index_hero/1773900141100-915ezidco2j.jpg",
-                    "sortOrder": 2,
-                    "description": "",
-                    "isSelected": true
-                  },
-                  {
                     "id": "c9084eb8-ae6e-4c95-9874-7b8f658e0d6b",
                     "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/index_hero/1773900141100-fr945tr4uq4.jpg",
-                    "sortOrder": 3,
+                    "sortOrder": 2,
                     "description": "",
                     "isSelected": true
                   },
                   {
                     "id": "48a881c1-eb7f-4b67-9e22-64a98b56d316",
                     "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/index_hero/1773900141100-vvydd2ahxlp.jpg",
-                    "sortOrder": 4,
+                    "sortOrder": 3,
                     "description": "",
                     "isSelected": true
                   },
                   {
                     "id": "cce685be-fcbb-4992-91aa-0bc3d22b0038",
                     "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/index_hero/1773900141100-d03llh5iu5i.jpg",
-                    "sortOrder": 5,
+                    "sortOrder": 4,
                     "description": "",
                     "isSelected": true
                   },
                   {
                     "id": "a07d968a-4021-46ee-8dbc-1025d6293170",
                     "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/index_hero/1773900141100-8ele0j2gpe4.jpg",
-                    "sortOrder": 6,
+                    "sortOrder": 5,
                     "description": "",
                     "isSelected": true
                   },
                   {
                     "id": "b2925110-1773-4528-8074-4007ebe6da77",
                     "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/index_hero/1773900256876-s0qq4leurue.jpg",
+                    "sortOrder": 6,
+                    "description": "",
+                    "isSelected": true
+                  },
+                  {
+                    "id": "6bfba2a7-44c7-4d40-914c-e94a6199d251",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/index_hero/1773900256876-x3zirdyq6yn.jpg",
                     "sortOrder": 7,
                     "description": "",
                     "isSelected": true
@@ -616,15 +616,55 @@
                     "description": "",
                     "isSelected": true
                   }
-                ]
+                ],
+                "description": "가족 모두를 위한 특별한 여행의 시작, 태안 요요키즈 풀빌라"
               },
               "closing": {
-                "title": "",
-                "images": []
+                "title": "Stay for cozy, Yoyo poolvilla",
+                "images": [
+                  {
+                    "id": "a991f53f-dd05-4049-8a15-05d68cc9bfc1",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/index_closing/1773901242249-3xs81dre4gz.jpg",
+                    "sortOrder": 0,
+                    "description": "",
+                    "isSelected": true
+                  }
+                ],
+                "description": "아이의 즐거움과 가족의 편안함이 머무는 특별한 공간"
               },
               "essence": {
-                "title": "",
-                "images": []
+                "title": " ",
+                "images": [
+                  {
+                    "id": "e9fbb54f-2f61-4bed-b583-7350a2e84c22",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/index_essence/1773901075652-s3hcmywduo.jpg",
+                    "sortOrder": 0,
+                    "description": "",
+                    "isSelected": true
+                  },
+                  {
+                    "id": "f66a738a-f1a0-452a-a200-dbaf1cb98ee5",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/index_essence/1773901075652-9ql95wyoj3b.jpg",
+                    "sortOrder": 1,
+                    "description": "",
+                    "isSelected": true
+                  },
+                  {
+                    "id": "c4d2d302-d343-446a-91b9-e6ffe9254343",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/index_essence/1773901075652-6q4rv8c3kvi.jpg",
+                    "sortOrder": 2,
+                    "description": "",
+                    "isSelected": true
+                  },
+                  {
+                    "id": "e14aac4a-2785-464b-ba18-1b11228e06e1",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/index_essence/1773901075652-vfwu37yu4bh.jpg",
+                    "sortOrder": 3,
+                    "description": "",
+                    "isSelected": true
+                  }
+                ],
+                "description": "YOYO \nKids \nPoolvilla"
               },
               "gallery": {
                 "title": "",
