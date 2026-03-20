@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.19.0",
-    "generatedAt": "2026-03-20T08:05:10.994Z",
+    "version": "1.20.0",
+    "generatedAt": "2026-03-20T08:15:57.098Z",
     "templateType": "fullpage_visual",
     "propertyId": "3cb63f91-cc4c-49bd-a107-ab6e9ea71fce",
     "homepageId": "90a49fc8-5757-421a-96c7-246d0070d1e6"
@@ -707,9 +707,16 @@
                     "isSelected": true
                   },
                   {
+                    "id": "dd06d4cd-53ab-454f-a29a-5cc40a9cb2d7",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/directions_hero/1773994459846-y9c1lagydgm.jpg",
+                    "sortOrder": 3,
+                    "description": "",
+                    "isSelected": true
+                  },
+                  {
                     "id": "497ec9f8-e94e-4a29-ab18-15c0eefe7d2a",
                     "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/directions_hero/1773904661650-d2vxjz31yfn.jpg",
-                    "sortOrder": 3,
+                    "sortOrder": 4,
                     "description": "",
                     "isSelected": true
                   }
@@ -1396,7 +1403,7 @@
               "id": "e2399cc0-bb92-487f-ba78-4e9d5599b45d",
               "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/roomtype_exterior/1773899853784-8io9q6kyoxq.jpg",
               "sortOrder": 0,
-              "description": "단독수영장",
+              "description": "실내온수수영장",
               "isSelected": true,
               "blockId": "94f76420-8230-4b39-a8f4-a5cf770770a3",
               "category": "roomtype_exterior"
@@ -1405,7 +1412,7 @@
               "id": "ccddf975-9a49-4354-bc0f-9a4d260845ad",
               "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/roomtype_exterior/1773899853784-t3xns0glaec.jpg",
               "sortOrder": 1,
-              "description": "아이 놀이공간",
+              "description": "키즈놀이공간",
               "isSelected": true,
               "blockId": "94f76420-8230-4b39-a8f4-a5cf770770a3",
               "category": "roomtype_exterior"
@@ -1414,7 +1421,7 @@
               "id": "560677cf-a6aa-40a3-8ca7-a08d02b70898",
               "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/roomtype_exterior/1773899853784-9rumur3ewgi.jpg",
               "sortOrder": 2,
-              "description": "호텔식 침구",
+              "description": "전객실 호텔식 침구",
               "isSelected": true,
               "blockId": "94f76420-8230-4b39-a8f4-a5cf770770a3",
               "category": "roomtype_exterior"
