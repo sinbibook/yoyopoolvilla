@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.18.0",
-    "generatedAt": "2026-03-20T07:55:32.502Z",
+    "version": "1.19.0",
+    "generatedAt": "2026-03-20T08:05:10.994Z",
     "templateType": "fullpage_visual",
     "propertyId": "3cb63f91-cc4c-49bd-a107-ab6e9ea71fce",
     "homepageId": "90a49fc8-5757-421a-96c7-246d0070d1e6"
@@ -129,7 +129,7 @@
       {
         "id": "8f16e0fd-cd8c-45e0-8a4b-dcff65e02e3c",
         "name": "키즈놀이공간",
-        "description": "우리아이가 지루하지 않게",
+        "description": "우리아이가 지루하지 않게 다양하게 즐기는 공간",
         "usageGuide": "- 유아용 생활용품 및 장난감 구비",
         "displayOrder": 96,
         "images": [
