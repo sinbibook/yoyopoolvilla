@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.20.0",
-    "generatedAt": "2026-03-20T08:15:57.098Z",
+    "version": "1.21.0",
+    "generatedAt": "2026-03-20T08:17:30.232Z",
     "templateType": "fullpage_visual",
     "propertyId": "3cb63f91-cc4c-49bd-a107-ab6e9ea71fce",
     "homepageId": "90a49fc8-5757-421a-96c7-246d0070d1e6"
@@ -898,7 +898,15 @@
               },
               "about": {
                 "title": " ",
-                "images": [],
+                "images": [
+                  {
+                    "id": "be659db5-b35c-4ef4-88ae-749874d742ae",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/reservation_about/1773994644225-gpy2w7epxr.png",
+                    "sortOrder": 0,
+                    "description": "",
+                    "isSelected": true
+                  }
+                ],
                 "description": " "
               }
             }
