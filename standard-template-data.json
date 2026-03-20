@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.15.0",
-    "generatedAt": "2026-03-20T07:40:33.088Z",
+    "version": "1.16.0",
+    "generatedAt": "2026-03-20T07:50:11.272Z",
     "templateType": "fullpage_visual",
     "propertyId": "3cb63f91-cc4c-49bd-a107-ab6e9ea71fce",
     "homepageId": "90a49fc8-5757-421a-96c7-246d0070d1e6"
@@ -696,7 +696,7 @@
                     "id": "42338f3a-ef0d-4c79-bc93-d610b89cc26c",
                     "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/directions_hero/1773904661650-bt1o6r2xcyj.jpg",
                     "sortOrder": 0,
-                    "description": "",
+                    "description": "태안 요요 키즈 풀빌라 오시는 길 안내입니다",
                     "isSelected": true
                   },
                   {
@@ -777,6 +777,38 @@
                       "description": "",
                       "isSelected": true,
                       "blockId": "9d9a6d4d-af87-41c3-99fd-4d6554b90dfb"
+                    },
+                    {
+                      "id": "0e4048a1-bbc5-4565-8119-469f69111f59",
+                      "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/main_about/1773992891900-0m1jjv1kgec.jpg",
+                      "sortOrder": 1,
+                      "description": "",
+                      "isSelected": true,
+                      "blockId": "9d9a6d4d-af87-41c3-99fd-4d6554b90dfb"
+                    },
+                    {
+                      "id": "ecf8f8fb-415f-43bb-b21d-f177bd1a296c",
+                      "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/main_about/1773992891901-6s0xxnm5yq8.jpg",
+                      "sortOrder": 2,
+                      "description": "",
+                      "isSelected": true,
+                      "blockId": "9d9a6d4d-af87-41c3-99fd-4d6554b90dfb"
+                    },
+                    {
+                      "id": "a9134c8f-d6ed-4f61-a194-ecaf6495f2a8",
+                      "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/main_about/1773992891901-h8rjuo67l3.jpg",
+                      "sortOrder": 3,
+                      "description": "",
+                      "isSelected": true,
+                      "blockId": "9d9a6d4d-af87-41c3-99fd-4d6554b90dfb"
+                    },
+                    {
+                      "id": "599c73e4-59ba-445f-8627-fd9ea8545f14",
+                      "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/main_about/1773992891901-l35buc5vyui.jpg",
+                      "sortOrder": 4,
+                      "description": "",
+                      "isSelected": true,
+                      "blockId": "9d9a6d4d-af87-41c3-99fd-4d6554b90dfb"
                     }
                   ],
                   "blockId": "9d9a6d4d-af87-41c3-99fd-4d6554b90dfb",
@@ -788,7 +820,39 @@
                     {
                       "id": "49eb6cef-a32e-47c5-9d01-a743cc4bcc07",
                       "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/main_about/1773904585835-s4yo9vs0edg.jpg",
-                      "sortOrder": 1,
+                      "sortOrder": 5,
+                      "description": "",
+                      "isSelected": true,
+                      "blockId": "3c1cce36-b39e-48fe-ba50-ff6da1bf0b94"
+                    },
+                    {
+                      "id": "27398575-2ea3-4b9b-b796-5afd2bdfecd0",
+                      "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/main_about/1773992891901-agvcm0w949.jpg",
+                      "sortOrder": 6,
+                      "description": "",
+                      "isSelected": true,
+                      "blockId": "3c1cce36-b39e-48fe-ba50-ff6da1bf0b94"
+                    },
+                    {
+                      "id": "77212efe-ed74-42c2-a5e1-ce6a755c7614",
+                      "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/main_about/1773992891901-5oddxh09rdj.jpg",
+                      "sortOrder": 7,
+                      "description": "",
+                      "isSelected": true,
+                      "blockId": "3c1cce36-b39e-48fe-ba50-ff6da1bf0b94"
+                    },
+                    {
+                      "id": "398ccd01-478a-42d0-a23a-1be726418c20",
+                      "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/main_about/1773992891901-ctzljp0vodo.jpg",
+                      "sortOrder": 8,
+                      "description": "",
+                      "isSelected": true,
+                      "blockId": "3c1cce36-b39e-48fe-ba50-ff6da1bf0b94"
+                    },
+                    {
+                      "id": "5438b45e-4a4d-40cf-a3c7-4a5f45842226",
+                      "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/main_about/1773992891901-kwd4c00wyzq.jpg",
+                      "sortOrder": 9,
                       "description": "",
                       "isSelected": true,
                       "blockId": "3c1cce36-b39e-48fe-ba50-ff6da1bf0b94"
