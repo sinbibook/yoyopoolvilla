@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.21.0",
-    "generatedAt": "2026-03-20T08:17:30.232Z",
+    "version": "1.22.0",
+    "generatedAt": "2026-03-30T07:20:58.201Z",
     "templateType": "fullpage_visual",
     "propertyId": "3cb63f91-cc4c-49bd-a107-ab6e9ea71fce",
     "homepageId": "90a49fc8-5757-421a-96c7-246d0070d1e6"
@@ -453,13 +453,13 @@
     ],
     "nameEn": "Taean Yoyo Kids Pool Villa",
     "domain": "yoyopoolvilla.kr",
-    "realtimeBookingId": "",
+    "realtimeBookingId": "https://www.bookingplay.co.kr/booking/1/2758",
     "ybsId": ""
   },
   "rooms": [
     {
       "id": "94f76420-8230-4b39-a8f4-a5cf770770a3",
-      "name": "요요POOL NO.1(키즈용품완비)",
+      "name": "독채키즈풀빌라(키즈용품, 정글짐, 불멍)",
       "description": "독채형 : 거실1+침대룸A(퀸1)+침대룸B(퀸2)+온돌룸(침구세트2)+주방1+화장실2+개별바비큐+개별수영장",
       "roomInfo": "독채형 : 거실1+침대룸A(퀸1)+침대룸B(퀸2)+온돌룸(침구세트2)+주방1+화장실2+개별바비큐+개별수영장",
       "usageGuide": "[인원추가비(1박기준/현장결제)]\n- 추가인원 : 1인당 30,000원 (1박기준/현장결제)\n※ 영유아 기준인원 포함 / 최대인원 초과불가\n※ 예약 인원 외 추가인원이 확인 될 경우 강제 퇴실 조치 됩니다 (방문객 포함 / 외부 CCTV 확인)",
