@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.24.0",
-    "generatedAt": "2026-05-18T05:48:05.596293050Z",
+    "version": "1.25.0",
+    "generatedAt": "2026-06-12T09:25:03.386893878Z",
     "templateType": "fullpage_visual",
     "propertyId": "3cb63f91-cc4c-49bd-a107-ab6e9ea71fce",
     "homepageId": "90a49fc8-5757-421a-96c7-246d0070d1e6"
@@ -11,7 +11,7 @@
     "name": "태안 요요 키즈 풀빌라",
     "description": "",
     "subtitle": "",
-    "address": "충남 태안군 남면 안면대로 1281-28 요요 키즈 풀빌라",
+    "address": "충남 태안군 남면 안면대로 1281-28",
     "latitude": 36.6413058907232,
     "longitude": 126.309929106054,
     "contactPhone": "010-2049-9252",
@@ -399,7 +399,9 @@
     "refundSettings": {
       "customerRefundNotice": "",
       "immediateRefundEnabled": false,
-      "immediateRefundTimeLimit": "60"
+      "immediateRefundTimeLimit": "60",
+      "immediateRefundMinuteLimit": "60",
+      "sameDayReservationHourLimit": null
     },
     "images": [
       {
@@ -687,8 +689,8 @@
                     "blockId": null
                   }
                 ],
-                "description": "가족 모두를 위한 특별한 여행의 시작, 태안 요요키즈 풀빌라",
-                "videos": [ ]
+                "videos": [ ],
+                "description": "가족 모두를 위한 특별한 여행의 시작, 태안 요요키즈 풀빌라"
               },
               "closing": {
                 "title": "Cozy Stay, Yoyo Poolvilla",
@@ -702,8 +704,8 @@
                     "blockId": null
                   }
                 ],
-                "description": "아이의 즐거움과 가족의 편안함이 머무는 특별한 공간",
-                "videos": [ ]
+                "videos": [ ],
+                "description": "아이의 즐거움과 가족의 편안함이 머무는 특별한 공간"
               },
               "essence": {
                 "title": " ",
@@ -741,8 +743,8 @@
                     "blockId": null
                   }
                 ],
-                "description": "Made for kids and \nfamily moments.\nYOYO Kids Poolvilla",
-                "videos": [ ]
+                "videos": [ ],
+                "description": "Made for kids and \nfamily moments.\nYOYO Kids Poolvilla"
               },
               "gallery": {
                 "title": "",
@@ -752,8 +754,8 @@
               "signature": {
                 "title": "",
                 "images": [ ],
-                "description": "",
-                "videos": [ ]
+                "videos": [ ],
+                "description": ""
               }
             }
           ]
@@ -863,35 +865,40 @@
                       "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/main_about/1773904585835-597lers8kiu.jpg",
                       "sortOrder": 0,
                       "description": "",
-                      "isSelected": true
+                      "isSelected": true,
+                      "blockId": "9d9a6d4d-af87-41c3-99fd-4d6554b90dfb"
                     },
                     {
                       "id": "0e4048a1-bbc5-4565-8119-469f69111f59",
                       "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/main_about/1773992891900-0m1jjv1kgec.jpg",
                       "sortOrder": 1,
                       "description": "",
-                      "isSelected": true
+                      "isSelected": true,
+                      "blockId": "9d9a6d4d-af87-41c3-99fd-4d6554b90dfb"
                     },
                     {
                       "id": "ecf8f8fb-415f-43bb-b21d-f177bd1a296c",
                       "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/main_about/1773992891901-6s0xxnm5yq8.jpg",
                       "sortOrder": 2,
                       "description": "",
-                      "isSelected": true
+                      "isSelected": true,
+                      "blockId": "9d9a6d4d-af87-41c3-99fd-4d6554b90dfb"
                     },
                     {
                       "id": "a9134c8f-d6ed-4f61-a194-ecaf6495f2a8",
                       "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/main_about/1773992891901-h8rjuo67l3.jpg",
                       "sortOrder": 3,
                       "description": "",
-                      "isSelected": true
+                      "isSelected": true,
+                      "blockId": "9d9a6d4d-af87-41c3-99fd-4d6554b90dfb"
                     },
                     {
                       "id": "599c73e4-59ba-445f-8627-fd9ea8545f14",
                       "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/main_about/1773992891901-l35buc5vyui.jpg",
                       "sortOrder": 4,
                       "description": "",
-                      "isSelected": true
+                      "isSelected": true,
+                      "blockId": "9d9a6d4d-af87-41c3-99fd-4d6554b90dfb"
                     }
                   ],
                   "blockId": "9d9a6d4d-af87-41c3-99fd-4d6554b90dfb",
@@ -905,35 +912,40 @@
                       "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/main_about/1773904585835-s4yo9vs0edg.jpg",
                       "sortOrder": 5,
                       "description": "",
-                      "isSelected": true
+                      "isSelected": true,
+                      "blockId": "3c1cce36-b39e-48fe-ba50-ff6da1bf0b94"
                     },
                     {
                       "id": "27398575-2ea3-4b9b-b796-5afd2bdfecd0",
                       "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/main_about/1773992891901-agvcm0w949.jpg",
                       "sortOrder": 6,
                       "description": "",
-                      "isSelected": true
+                      "isSelected": true,
+                      "blockId": "3c1cce36-b39e-48fe-ba50-ff6da1bf0b94"
                     },
                     {
                       "id": "77212efe-ed74-42c2-a5e1-ce6a755c7614",
                       "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/main_about/1773992891901-5oddxh09rdj.jpg",
                       "sortOrder": 7,
                       "description": "",
-                      "isSelected": true
+                      "isSelected": true,
+                      "blockId": "3c1cce36-b39e-48fe-ba50-ff6da1bf0b94"
                     },
                     {
                       "id": "398ccd01-478a-42d0-a23a-1be726418c20",
                       "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/main_about/1773992891901-ctzljp0vodo.jpg",
                       "sortOrder": 8,
                       "description": "",
-                      "isSelected": true
+                      "isSelected": true,
+                      "blockId": "3c1cce36-b39e-48fe-ba50-ff6da1bf0b94"
                     },
                     {
                       "id": "5438b45e-4a4d-40cf-a3c7-4a5f45842226",
                       "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/main_about/1773992891901-kwd4c00wyzq.jpg",
                       "sortOrder": 9,
                       "description": "",
-                      "isSelected": true
+                      "isSelected": true,
+                      "blockId": "3c1cce36-b39e-48fe-ba50-ff6da1bf0b94"
                     }
                   ],
                   "blockId": "3c1cce36-b39e-48fe-ba50-ff6da1bf0b94",
@@ -993,6 +1005,12 @@
               }
             }
           ]
+        },
+        "layoutMap": {
+          "sections": [ ]
+        },
+        "nearbyAttractions": {
+          "sections": [ ]
         }
       },
       "theme": {
@@ -1022,7 +1040,29 @@
         }
       },
       "popup": {
-        "popups": [ ]
+        "popups": [
+          {
+            "id": "b641bf57-47e5-4a75-9f69-b10e677a98d7",
+            "link": "",
+            "title": "",
+            "images": [
+              {
+                "id": "961132c2-518e-4596-9461-3693e62d83d0",
+                "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/popup/1781256301497-dvealyrt2r.jpg",
+                "sortOrder": 0,
+                "description": "",
+                "isSelected": true,
+                "blockId": "b641bf57-47e5-4a75-9f69-b10e677a98d7"
+              }
+            ],
+            "slider": false,
+            "enabled": true,
+            "endDate": "2026-07-31",
+            "sortOrder": 0,
+            "startDate": "2026-06-12",
+            "description": ""
+          }
+        ]
       },
       "property": {
         "images": [
