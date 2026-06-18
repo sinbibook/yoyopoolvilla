@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.28.0",
-    "generatedAt": "2026-06-18T01:25:06.956398463Z",
+    "version": "1.29.0",
+    "generatedAt": "2026-06-18T01:40:09.750183734Z",
     "templateType": "fullpage_visual",
     "propertyId": "3cb63f91-cc4c-49bd-a107-ab6e9ea71fce",
     "homepageId": "90a49fc8-5757-421a-96c7-246d0070d1e6"
@@ -1665,32 +1665,32 @@
                 "title": " ",
                 "images": [
                   {
-                    "id": "e9fbb54f-2f61-4bed-b583-7350a2e84c22",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/index_essence/1773901075652-s3hcmywduo.jpg",
+                    "id": "09b1cde6-48c8-4104-907e-a748a5025428",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/index_essence/1781746807611-jh642up0vm.jpg",
                     "sortOrder": 0,
                     "description": "하루 한 팀만을 위한 프라이빗 독채, 요요키즈풀빌라 펜션입니다.\n아이들의 즐거움과 가족의 편안한 휴식이 함께하는 특별한 공간입니다.\n주변 방해 없이 우리 가족만의 여행과 소중한 추억을 온전히 즐겨보세요",
                     "isSelected": true,
                     "blockId": null
                   },
                   {
-                    "id": "f66a738a-f1a0-452a-a200-dbaf1cb98ee5",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/index_essence/1773901075652-9ql95wyoj3b.jpg",
+                    "id": "04e0647e-1ddf-4036-a6e5-b35534dcb52b",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/index_essence/1781746807615-j9q462gao4.jpg",
                     "sortOrder": 1,
                     "description": "실내수영장, 야외마당, 테라스 바비큐, 감성 캠프파이어, \n키즈 놀이시설까지 한 공간에서 모두 즐기실 수 있습니다.\n아이들은 신나게 뛰어놀고 어른들은 여유로운 쉼을 누릴 수 있어 \n온가족 여행에 잘 어울립니다.\n프라이빗한 독채 공간에서 사계절 내내 더욱 자유롭고 \n특별한 시간을 만들어보세요.",
                     "isSelected": true,
                     "blockId": null
                   },
                   {
-                    "id": "c4d2d302-d343-446a-91b9-e6ffe9254343",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/index_essence/1773901075652-6q4rv8c3kvi.jpg",
+                    "id": "d24280d8-b69b-4ab9-933d-b892b06108b6",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/index_essence/1781746807614-k0i9tg96e6.jpg",
                     "sortOrder": 2,
                     "description": "",
                     "isSelected": true,
                     "blockId": null
                   },
                   {
-                    "id": "e14aac4a-2785-464b-ba18-1b11228e06e1",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/index_essence/1773901075652-vfwu37yu4bh.jpg",
+                    "id": "442bdd77-74b3-4bb9-b9fb-dedcbf806b73",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/index_essence/1781746807665-845blaxz90.jpg",
                     "sortOrder": 3,
                     "description": "",
                     "isSelected": true,
