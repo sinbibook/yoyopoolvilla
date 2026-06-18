@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.38.0",
-    "generatedAt": "2026-06-18T05:53:35.288877030Z",
+    "version": "1.39.0",
+    "generatedAt": "2026-06-18T06:08:28.714779063Z",
     "templateType": "fullpage_visual",
     "propertyId": "3cb63f91-cc4c-49bd-a107-ab6e9ea71fce",
     "homepageId": "90a49fc8-5757-421a-96c7-246d0070d1e6"
@@ -1908,7 +1908,48 @@
                 },
                 {
                   "title": "아이들 놀이공간",
-                  "images": [ ],
+                  "images": [
+                    {
+                      "id": "6b79a71b-4427-4f03-8375-4844f3fec755",
+                      "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/main_about/1781762905642-rzqnoo0vx9.jpg",
+                      "sortOrder": 10,
+                      "description": "",
+                      "isSelected": true,
+                      "blockId": "3c1cce36-b39e-48fe-ba50-ff6da1bf0b94"
+                    },
+                    {
+                      "id": "eb2332d0-1c1c-4e3f-aa59-6013b8e9243c",
+                      "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/main_about/1781762905781-xiel5na7ci.jpg",
+                      "sortOrder": 11,
+                      "description": "",
+                      "isSelected": true,
+                      "blockId": "3c1cce36-b39e-48fe-ba50-ff6da1bf0b94"
+                    },
+                    {
+                      "id": "db159473-9130-4b5a-addb-cab13c905344",
+                      "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/main_about/1781762905674-ar03xmgp8o.jpg",
+                      "sortOrder": 12,
+                      "description": "",
+                      "isSelected": true,
+                      "blockId": "3c1cce36-b39e-48fe-ba50-ff6da1bf0b94"
+                    },
+                    {
+                      "id": "fe2e8c76-b251-4c34-b043-2819b69658a2",
+                      "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/main_about/1781762905745-t2exwh14f2.jpg",
+                      "sortOrder": 13,
+                      "description": "",
+                      "isSelected": true,
+                      "blockId": "3c1cce36-b39e-48fe-ba50-ff6da1bf0b94"
+                    },
+                    {
+                      "id": "e3111090-7648-4948-9ae6-159d31e14bea",
+                      "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/main_about/1781762905735-0j0te0wnl5.jpg",
+                      "sortOrder": 14,
+                      "description": "",
+                      "isSelected": true,
+                      "blockId": "3c1cce36-b39e-48fe-ba50-ff6da1bf0b94"
+                    }
+                  ],
                   "blockId": "3c1cce36-b39e-48fe-ba50-ff6da1bf0b94",
                   "description": "아이들이 신나게 뛰어놀 수 있는 키즈카페 같은 \n놀이공간이 가득 마련되어 있습니다.\n미끄럼틀, 정글놀이, 트램펄린, 인형놀이와 주방놀이, \n마트놀이 등 까지 다양하게 즐길 수 있습니다.\n아이들은 물론 가족 모두가 즐거운 요요키즈 풀빌라."
                 }
