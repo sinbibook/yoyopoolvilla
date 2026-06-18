@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.41.0",
-    "generatedAt": "2026-06-18T06:12:14.697199148Z",
+    "version": "1.42.0",
+    "generatedAt": "2026-06-18T06:22:37.645303456Z",
     "templateType": "fullpage_visual",
     "propertyId": "3cb63f91-cc4c-49bd-a107-ab6e9ea71fce",
     "homepageId": "90a49fc8-5757-421a-96c7-246d0070d1e6"
@@ -1719,48 +1719,7 @@
             {
               "hero": {
                 "title": "Directions",
-                "images": [
-                  {
-                    "id": "42338f3a-ef0d-4c79-bc93-d610b89cc26c",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/directions_hero/1773904661650-bt1o6r2xcyj.jpg",
-                    "sortOrder": 0,
-                    "description": "태안 요요 키즈 풀빌라 오시는 길 안내입니다",
-                    "isSelected": true,
-                    "blockId": null
-                  },
-                  {
-                    "id": "9017f6dd-a646-4919-a43e-d0dc4803c9e8",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/directions_hero/1773904661650-73mvudy0tl.jpg",
-                    "sortOrder": 1,
-                    "description": "",
-                    "isSelected": true,
-                    "blockId": null
-                  },
-                  {
-                    "id": "f01edb51-1421-41c8-80a9-5ae5d00af887",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/directions_hero/1773904661650-c1qg1jmp0i9.jpg",
-                    "sortOrder": 2,
-                    "description": "",
-                    "isSelected": true,
-                    "blockId": null
-                  },
-                  {
-                    "id": "dd06d4cd-53ab-454f-a29a-5cc40a9cb2d7",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/directions_hero/1773994459846-y9c1lagydgm.jpg",
-                    "sortOrder": 3,
-                    "description": "",
-                    "isSelected": true,
-                    "blockId": null
-                  },
-                  {
-                    "id": "497ec9f8-e94e-4a29-ab18-15c0eefe7d2a",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/directions_hero/1773904661650-d2vxjz31yfn.jpg",
-                    "sortOrder": 4,
-                    "description": "",
-                    "isSelected": true,
-                    "blockId": null
-                  }
-                ]
+                "images": [ ]
               },
               "notice": {
                 "title": "d",
