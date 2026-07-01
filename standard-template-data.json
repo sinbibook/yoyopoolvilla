@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.51.0",
-    "generatedAt": "2026-07-01T08:04:21.113895162Z",
+    "version": "1.52.0",
+    "generatedAt": "2026-07-01T08:12:18.805779609Z",
     "templateType": "fullpage_visual",
     "propertyId": "3cb63f91-cc4c-49bd-a107-ab6e9ea71fce",
     "homepageId": "90a49fc8-5757-421a-96c7-246d0070d1e6"
@@ -2351,7 +2351,7 @@
               "id": "ad3ec7b1-3382-4659-8a09-8dd9c0453eb3",
               "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/roomtype_exterior/1781749405147-l8z4dqvbo5.jpg",
               "sortOrder": 4,
-              "description": "실내수영장",
+              "description": "우리만의 물놀이",
               "isSelected": true,
               "blockId": "3f9ab2c3-7cd5-495c-af33-a9d9e315a571",
               "category": "roomtype_exterior"
@@ -2360,7 +2360,7 @@
               "id": "bb7a763a-326b-4cde-9a91-68664fdfac4f",
               "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/roomtype_exterior/1781749404283-6v23f3b1kg.jpg",
               "sortOrder": 5,
-              "description": "키즈 놀이시설",
+              "description": "편안한 휴식",
               "isSelected": true,
               "blockId": "3f9ab2c3-7cd5-495c-af33-a9d9e315a571",
               "category": "roomtype_exterior"
@@ -2369,7 +2369,7 @@
               "id": "f6246239-49c4-4b57-8aa1-5e176870a28f",
               "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/roomtype_exterior/1781749406063-84764hcxpj.jpg",
               "sortOrder": 6,
-              "description": "잔디마당",
+              "description": "웃음이 머무는 곳",
               "isSelected": true,
               "blockId": "3f9ab2c3-7cd5-495c-af33-a9d9e315a571",
               "category": "roomtype_exterior"
@@ -2378,7 +2378,7 @@
               "id": "3473cd5a-5bf8-4e71-a5f8-8773d0670251",
               "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/roomtype_exterior/1781749405413-covq5doe7a.jpg",
               "sortOrder": 7,
-              "description": "개별바베큐",
+              "description": "추억 한 장",
               "isSelected": true,
               "blockId": "3f9ab2c3-7cd5-495c-af33-a9d9e315a571",
               "category": "roomtype_exterior"
@@ -2387,7 +2387,7 @@
               "id": "59ad5592-5b3a-4750-8e8f-fc735c86b965",
               "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/roomtype_exterior/1781749403884-t9j062a0nc.jpg",
               "sortOrder": 8,
-              "description": "불멍",
+              "description": "함께하는 시간",
               "isSelected": true,
               "blockId": "3f9ab2c3-7cd5-495c-af33-a9d9e315a571",
               "category": "roomtype_exterior"
