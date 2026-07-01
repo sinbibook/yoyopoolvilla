@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.56.0",
-    "generatedAt": "2026-07-01T08:35:01.571348013Z",
+    "version": "1.57.0",
+    "generatedAt": "2026-07-01T08:37:46.967353828Z",
     "templateType": "fullpage_visual",
     "propertyId": "3cb63f91-cc4c-49bd-a107-ab6e9ea71fce",
     "homepageId": "90a49fc8-5757-421a-96c7-246d0070d1e6"
@@ -1684,11 +1684,29 @@
           "sections": [
             {
               "hero": {
-                "title": "",
-                "images": [ ]
+                "title": "LAYOUT",
+                "images": [
+                  {
+                    "id": "8fca9948-20be-46b0-9522-34cd42f6f88a",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/layout_map_hero/1782895063000-popmaugv7q.jpg",
+                    "sortOrder": 0,
+                    "description": "",
+                    "isSelected": true,
+                    "blockId": null
+                  },
+                  {
+                    "id": "0dbefd51-fa8f-49d5-a0d3-a776c06aebf5",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/layout_map_hero/1782895062974-0ew1p7hj9y.jpg",
+                    "sortOrder": 1,
+                    "description": "",
+                    "isSelected": true,
+                    "blockId": null
+                  }
+                ],
+                "description": "미리보기"
               },
               "about": {
-                "title": "시설 위치 안내",
+                "title": " ",
                 "images": [
                   {
                     "id": "3f840d5e-31f9-406b-9050-d9ea85f065d0",
@@ -1699,7 +1717,7 @@
                     "blockId": null
                   }
                 ],
-                "description": "객실과 부대시설의 구성을\n한눈에 확인해 보세요."
+                "description": " "
               }
             }
           ]
