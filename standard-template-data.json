@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.59.0",
-    "generatedAt": "2026-07-01T08:42:50.077918622Z",
+    "version": "1.60.0",
+    "generatedAt": "2026-07-01T09:16:19.768847912Z",
     "templateType": "fullpage_visual",
     "propertyId": "3cb63f91-cc4c-49bd-a107-ab6e9ea71fce",
     "homepageId": "90a49fc8-5757-421a-96c7-246d0070d1e6"
@@ -1340,7 +1340,7 @@
                     "id": "04e0647e-1ddf-4036-a6e5-b35534dcb52b",
                     "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/index_essence/1781746807615-j9q462gao4.jpg",
                     "sortOrder": 1,
-                    "description": "실내수영장, 야외마당, 테라스 바비큐, 감성 캠프파이어, \n키즈 놀이시설까지 한 공간에서 모두 즐기실 수 있습니다.\n아이들은 신나게 뛰어놀고 어른들은 여유로운 쉼을 누릴 수 있어 \n온가족 여행에 잘 어울립니다.\n프라이빗한 독채 공간에서 사계절 내내 더욱 자유롭고 \n특별한 시간을 만들어보세요.",
+                    "description": "실내수영장, 야외마당, 테라스 바비큐, 감성 캠프파이어,\n키즈 놀이시설까지 한 공간에서 모두 즐기실 수 있습니다.\n아이들은 신나게 뛰어놀고 어른들은 여유로운 쉼을 누릴 수 있어\n온가족 여행에 잘 어울립니다.\n프라이빗한 독채 공간에서 사계절 내내 더욱 자유롭고\n특별한 시간을 만들어보세요.",
                     "isSelected": true,
                     "blockId": null
                   },
