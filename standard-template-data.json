@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.55.0",
-    "generatedAt": "2026-07-01T08:34:22.137363129Z",
+    "version": "1.56.0",
+    "generatedAt": "2026-07-01T08:35:01.571348013Z",
     "templateType": "fullpage_visual",
     "propertyId": "3cb63f91-cc4c-49bd-a107-ab6e9ea71fce",
     "homepageId": "90a49fc8-5757-421a-96c7-246d0070d1e6"
@@ -1683,8 +1683,12 @@
         "layoutMap": {
           "sections": [
             {
+              "hero": {
+                "title": "",
+                "images": [ ]
+              },
               "about": {
-                "title": "배치도",
+                "title": "시설 위치 안내",
                 "images": [
                   {
                     "id": "3f840d5e-31f9-406b-9050-d9ea85f065d0",
@@ -1696,10 +1700,6 @@
                   }
                 ],
                 "description": "객실과 부대시설의 구성을\n한눈에 확인해 보세요."
-              },
-              "hero": {
-                "title": "",
-                "images": [ ]
               }
             }
           ]
