@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.78.0",
-    "generatedAt": "2026-07-01T09:50:38.207277449Z",
+    "version": "1.79.0",
+    "generatedAt": "2026-07-01T09:51:36.816173317Z",
     "templateType": "fullpage_visual",
     "propertyId": "3cb63f91-cc4c-49bd-a107-ab6e9ea71fce",
     "homepageId": "90a49fc8-5757-421a-96c7-246d0070d1e6"
@@ -2035,10 +2035,10 @@
               "category": "roomtype_exterior"
             },
             {
-              "id": "e560d56f-d0fb-481a-b5b2-bf55f6996f3d",
-              "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/roomtype_exterior/1782892977862-oxw6o0abvj.jpg",
+              "id": "0b9db520-de25-4ad2-9470-7acfb102ccaa",
+              "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/roomtype_exterior/1782899493133-pqjlocqs19.jpg",
               "sortOrder": 9,
-              "description": "함께하는 저녁",
+              "description": "",
               "isSelected": true,
               "blockId": "94f76420-8230-4b39-a8f4-a5cf770770a3",
               "category": "roomtype_exterior"
