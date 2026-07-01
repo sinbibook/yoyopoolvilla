@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.60.0",
-    "generatedAt": "2026-07-01T09:16:19.768847912Z",
+    "version": "1.61.0",
+    "generatedAt": "2026-07-01T09:16:53.079163086Z",
     "templateType": "fullpage_visual",
     "propertyId": "3cb63f91-cc4c-49bd-a107-ab6e9ea71fce",
     "homepageId": "90a49fc8-5757-421a-96c7-246d0070d1e6"
@@ -1314,8 +1314,8 @@
                 "title": "Cozy Stay, Yoyo Poolvilla",
                 "images": [
                   {
-                    "id": "a991f53f-dd05-4049-8a15-05d68cc9bfc1",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/index_closing/1773901242249-3xs81dre4gz.jpg",
+                    "id": "33366f50-8b36-418f-a9ca-069c9f534ab4",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/index_closing/1782897411426-30i3tehhte.jpg",
                     "sortOrder": 0,
                     "description": "",
                     "isSelected": true,
