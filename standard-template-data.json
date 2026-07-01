@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.80.0",
-    "generatedAt": "2026-07-01T09:52:29.584090122Z",
+    "version": "1.81.0",
+    "generatedAt": "2026-07-01T09:53:04.334216550Z",
     "templateType": "fullpage_visual",
     "propertyId": "3cb63f91-cc4c-49bd-a107-ab6e9ea71fce",
     "homepageId": "90a49fc8-5757-421a-96c7-246d0070d1e6"
@@ -2001,7 +2001,7 @@
             {
               "id": "5a1a6145-261e-47a1-99c0-54823e746042",
               "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/roomtype_exterior/1782892977865-sqi5tuqayi.jpg",
-              "sortOrder": 5,
+              "sortOrder": 0,
               "description": "우리만의 물놀이",
               "isSelected": true,
               "blockId": "94f76420-8230-4b39-a8f4-a5cf770770a3",
@@ -2010,7 +2010,7 @@
             {
               "id": "8f5a8567-5a80-4781-a91e-fd4f5df497e9",
               "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/roomtype_exterior/1782892977868-kzu0qiicuh.jpg",
-              "sortOrder": 6,
+              "sortOrder": 1,
               "description": "편안한 쉼",
               "isSelected": true,
               "blockId": "94f76420-8230-4b39-a8f4-a5cf770770a3",
@@ -2019,7 +2019,7 @@
             {
               "id": "5ad0b031-51b5-47df-a730-146ae4861ce8",
               "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/roomtype_exterior/1782899397039-o952nb8ty9.jpg",
-              "sortOrder": 7,
+              "sortOrder": 2,
               "description": "신나는 키즈존",
               "isSelected": true,
               "blockId": "94f76420-8230-4b39-a8f4-a5cf770770a3",
@@ -2028,7 +2028,7 @@
             {
               "id": "8a907c7e-b1d9-4a9c-8f15-d350b8900209",
               "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/roomtype_exterior/1782892977843-yx9xz774v1.jpg",
-              "sortOrder": 8,
+              "sortOrder": 3,
               "description": "추억 한 장",
               "isSelected": true,
               "blockId": "94f76420-8230-4b39-a8f4-a5cf770770a3",
@@ -2037,8 +2037,8 @@
             {
               "id": "0b9db520-de25-4ad2-9470-7acfb102ccaa",
               "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/roomtype_exterior/1782899493133-pqjlocqs19.jpg",
-              "sortOrder": 9,
-              "description": "",
+              "sortOrder": 4,
+              "description": "함께하는 저녁",
               "isSelected": true,
               "blockId": "94f76420-8230-4b39-a8f4-a5cf770770a3",
               "category": "roomtype_exterior"
@@ -2294,7 +2294,7 @@
             {
               "id": "8d413eb8-7624-4735-923c-4039b9121ebf",
               "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/roomtype_exterior/1782894110371-4biuhcln2f.jpg",
-              "sortOrder": 0,
+              "sortOrder": 5,
               "description": "우리만의 물놀이",
               "isSelected": true,
               "blockId": "3f9ab2c3-7cd5-495c-af33-a9d9e315a571",
@@ -2303,7 +2303,7 @@
             {
               "id": "811b249c-67bd-40d6-8061-061faab6f084",
               "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/roomtype_exterior/1782897875660-7ulkbcqmxi.jpg",
-              "sortOrder": 1,
+              "sortOrder": 6,
               "description": "편안한 쉼",
               "isSelected": true,
               "blockId": "3f9ab2c3-7cd5-495c-af33-a9d9e315a571",
@@ -2312,7 +2312,7 @@
             {
               "id": "8b628108-a8c1-4a54-b998-9c0ae2dde276",
               "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/roomtype_exterior/1782894110373-ol7mh423sw.jpg",
-              "sortOrder": 2,
+              "sortOrder": 7,
               "description": "추억 한 장",
               "isSelected": true,
               "blockId": "3f9ab2c3-7cd5-495c-af33-a9d9e315a571",
@@ -2321,7 +2321,7 @@
             {
               "id": "0bdf7d89-c7a1-47b4-b6fd-24e339686797",
               "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/roomtype_exterior/1782894110298-km15dmcuck.jpg",
-              "sortOrder": 3,
+              "sortOrder": 8,
               "description": "신나는 키즈존",
               "isSelected": true,
               "blockId": "3f9ab2c3-7cd5-495c-af33-a9d9e315a571",
@@ -2330,7 +2330,7 @@
             {
               "id": "57b77576-7f95-40d0-8c17-89c59c5fee3e",
               "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/roomtype_exterior/1782894110350-kyxo5ubvcx.jpg",
-              "sortOrder": 4,
+              "sortOrder": 9,
               "description": "함께하는 저녁",
               "isSelected": true,
               "blockId": "3f9ab2c3-7cd5-495c-af33-a9d9e315a571",
