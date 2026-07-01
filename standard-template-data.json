@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.65.0",
-    "generatedAt": "2026-07-01T09:23:31.049841589Z",
+    "version": "1.66.0",
+    "generatedAt": "2026-07-01T09:24:38.910026192Z",
     "templateType": "fullpage_visual",
     "propertyId": "3cb63f91-cc4c-49bd-a107-ab6e9ea71fce",
     "homepageId": "90a49fc8-5757-421a-96c7-246d0070d1e6"
@@ -2372,8 +2372,8 @@
               "category": "roomtype_exterior"
             },
             {
-              "id": "f2a2e863-ebca-47d3-80e9-c0c871f5f56f",
-              "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/roomtype_exterior/1782894110275-jo9vw7xfv2.jpg",
+              "id": "811b249c-67bd-40d6-8061-061faab6f084",
+              "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/roomtype_exterior/1782897875660-7ulkbcqmxi.jpg",
               "sortOrder": 5,
               "description": "편안한 쉼",
               "isSelected": true,
