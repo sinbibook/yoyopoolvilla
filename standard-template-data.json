@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.75.0",
-    "generatedAt": "2026-07-01T09:44:53.850914553Z",
+    "version": "1.76.0",
+    "generatedAt": "2026-07-01T09:48:28.752270382Z",
     "templateType": "fullpage_visual",
     "propertyId": "3cb63f91-cc4c-49bd-a107-ab6e9ea71fce",
     "homepageId": "90a49fc8-5757-421a-96c7-246d0070d1e6"
@@ -2029,7 +2029,7 @@
               "id": "e560d56f-d0fb-481a-b5b2-bf55f6996f3d",
               "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/roomtype_exterior/1782892977862-oxw6o0abvj.jpg",
               "sortOrder": 3,
-              "description": "불빛의 여유",
+              "description": "함께하는 저녁",
               "isSelected": true,
               "blockId": "94f76420-8230-4b39-a8f4-a5cf770770a3",
               "category": "roomtype_exterior"
