@@ -3,23 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>태안 요요 키즈풀빌라 독채 펜션 - 숙소소개</title>
+    <title>태안 요요 키즈풀빌라 독채 펜션</title>
     <meta name="description" content="태안 요요 키즈 풀빌라">
     <meta name="keywords" content="태안 요요 키즈 풀빌라">
     <!-- Stylesheets -->
     <link rel="stylesheet" href="styles/theme.css">
     <link rel="stylesheet" href="styles/common.css">
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/nearby-attractions.css">
   <!-- Open Graph Meta Tags for Social Media -->
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="태안 요요 키즈풀빌라 독채 펜션 - 숙소소개" />
+  <meta property="og:title" content="태안 요요 키즈풀빌라 독채 펜션" />
   <meta property="og:description" content="오직 우리 아이들만을 위한 공간을 갖고 있는 태안 요요 독채 키즈풀빌라입니다.여행지에서 아이들이 편안하고 즐겁게 놀 수 있는 경험을 느껴보세요" />
   <meta property="og:image" content="https://bookingplay-media.s3.amazonaws.com/item_images/2026/07/01/wmqo5SyjKfgn.jpg" />
   <meta property="og:url" content="https://yoyopoolvilla.kr" />
 
   <!-- Twitter Card Meta Tags -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="태안 요요 키즈풀빌라 독채 펜션 - 숙소소개" />
+  <meta name="twitter:title" content="태안 요요 키즈풀빌라 독채 펜션" />
   <meta name="twitter:description" content="오직 우리 아이들만을 위한 공간을 갖고 있는 태안 요요 독채 키즈풀빌라입니다.여행지에서 아이들이 편안하고 즐겁게 놀 수 있는 경험을 느껴보세요" />
   <meta name="twitter:image" content="https://bookingplay-media.s3.amazonaws.com/item_images/2026/07/01/wmqo5SyjKfgn.jpg" />
 </head>
@@ -30,37 +31,37 @@
         <div id="header-container"></div>
     </div>
 
-    <div id="app" class="main-page">
+    <div id="app" class="nearby-attractions-page">
 
-        <!-- CUSTOM FIELD : 메인 소개 섹션 이미지 매핑 -->
+        <!-- HERO SECTION -->
         <div class="main-section">
             <!-- custom field : 히어로 슬라이더 이미지 동적 생성 (mapper) -->
-            <div class="main-bg" data-hero-slider></div>
+            <div class="main-bg" data-nearby-attractions-hero-slider></div>
             <div class="main-content">
-                <!-- custom field : 메인 소개 섹션 타이틀 매핑 -->
-                <h1 class="main-title" data-main-about-title></h1>
+                <!-- custom field : 주변 관광지 섹션 타이틀 매핑 -->
+                <h1 class="main-title" data-nearby-attractions-hero-title></h1>
                 <div class="title-divider"><div class="bar-progress"></div></div>
-                <!-- custom field : 메인 소개 섹션 설명 매핑 -->
-                <p class="main-subtitle" data-main-about-description></p>
+                <!-- custom field : 주변 관광지 섹션 설명 매핑 -->
+                <p class="main-subtitle" data-nearby-attractions-hero-description></p>
             </div>
             <div class="main-arrow">
                 <div class="arrow-left"></div>
                 <p class="arrow-number">01</p>
                 <div class="arrow-divider"></div>
-                <p class="arrow-number">10</p>
+                <p class="arrow-number" data-attractions-count>0</p>
                 <div class="arrow-right"></div>
             </div>
         </div>
 
-        <!-- Introduction Section -->
-        <div class="section-con">
+        <!-- ABOUT SECTION : 관광지 목록 -->
+        <div class="section-attractions">
             <!-- 하드코딩, 매핑 x -->
-            <p class="prologue-title">Prologue</p>
-            <!-- custom field : about 블록 동적 생성 (mapper) -->
-            <div data-main-introduction></div>
+            <p class="section-title">Attractions</p>
+            <!-- custom field : 관광지 블록 동적 생성 (mapper) -->
+            <div data-nearby-attractions-about></div>
         </div>
 
-        <!-- 홈/마무리 섹션과 동일하게 매핑 -->
+        <!-- CLOSING SECTION -->
         <div class="content-4 closing-section">
             <!-- custom field : 마무리 섹션 이미지 매핑 -->
             <div class="content-4-bg" data-closing-image></div>
@@ -78,15 +79,45 @@
 
     <!-- Scripts -->
     <script src="js/common.js"></script>
-    <script src="js/pages/main.js"></script>
+    <script src="js/pages/nearby-attractions.js"></script>
 
     <!-- Data Mapper -->
     <script src="js/image-helpers.js"></script>
     <script src="js/data-mapper/core/base-mapper.js"></script>
-    <script src="js/data-mapper/pages/main-mapper.js"></script>
+    <script src="js/data-mapper/pages/nearby-attractions-mapper.js"></script>
     <script src="js/preview-handler.js"></script>
 
     <!-- Header / Footer Loader -->
     <script src="js/header-footer-loader.js"></script>
+
+    <!-- Enabled 상태 감시 (미노출 → 노출 변경 감지) -->
+    <script>
+        (function() {
+            function checkPageEnabled() {
+                if (!window.PreviewHandler || !window.PreviewHandler.currentData) return;
+
+                const data = window.PreviewHandler.currentData;
+                const enabled = data?.homepage?.customFields?.pages?.nearbyAttractions?.sections?.[0]?.enabled;
+
+                if (enabled === false) {
+                    location.replace('404.html');
+                }
+            }
+
+            if (typeof window !== 'undefined' && window.parent === window) {
+                window.addEventListener('DOMContentLoaded', () => {
+                    setTimeout(checkPageEnabled, 500);
+                    setInterval(checkPageEnabled, 1000);
+                });
+
+                // 탭이 활성화될 때 enabled 상태 확인
+                document.addEventListener('visibilitychange', () => {
+                    if (!document.hidden) {
+                        setTimeout(checkPageEnabled, 100);
+                    }
+                });
+            }
+        })();
+    </script>
 </body>
 </html>
