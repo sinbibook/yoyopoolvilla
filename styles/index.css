@@ -79,6 +79,14 @@ body {
     transform: scale(1);
 }
 
+/* Hero video 모드 */
+[data-hero-slider] [data-hero-video] {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
 .main-content {
     position: absolute;
@@ -189,7 +197,7 @@ body {
 
 .content-1-inner {
     position: relative;
-    width: 100%;
+    width: 80%;
     max-width: 1600px;
     margin: 0 auto;
     padding: 163px 0 0;
@@ -220,7 +228,7 @@ body {
 .title-text {
     font-family: var(--font-en-main);
     font-weight: 700;
-    font-size: 60px;
+    font-size: 50px;
     line-height: 1.2;
     color: var(--color-secondary);
     letter-spacing: -1.05px;
@@ -233,8 +241,9 @@ body {
 }
 
 .content-group .content-image.large {
-    flex-shrink: 0;
+    flex-shrink: 1;
     width: 900px;
+    max-width: 100%;
     height: 350px;
 }
 
@@ -260,7 +269,7 @@ body {
    con1-3 tall 이미지가 오른쪽 열 전체를 span하는 2열 grid */
 .con1-34 {
     display: grid;
-    grid-template-columns: 1fr 600px;
+    grid-template-columns: 1fr minmax(0, 600px);
     grid-template-rows: minmax(350px, auto) 400px;
     column-gap: 100px;
     width: 100%;
@@ -293,6 +302,20 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+/* Essence video 모드 */
+.essence-video-container {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+}
+
+.essence-video-container video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
 
 .con1-1 .content-image {
@@ -357,7 +380,7 @@ body {
 .content-2-bg {
     position: absolute;
     inset: 0;
-    background-image: url('https://images.unsplash.com/photo-1655409735952-cb5220efca54?w=2000&q=80');
+    background-image: url('../images/bg.png');
     background-size: cover;
     background-position: center;
 }
@@ -810,6 +833,15 @@ body {
     background-position: center;
 }
 
+/* Closing video 모드 */
+.closing-video {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 .content-4-text {
     position: relative;
     z-index: 1;
@@ -974,6 +1006,141 @@ body {
 .title-text.is-visible p:nth-child(3) { opacity: 1; transform: translateX(0); transition-delay: 0.5s; }
 
 /* ==========================================
+   TABLET RESPONSIVE (max-width: 1100px)
+   ========================================== */
+
+@media (max-width: 1400px) {
+    .title-text {
+        font-size: clamp(36px, 3.5vw, 60px);
+    }
+
+    .content-group {
+        gap: 50px;
+    }
+
+    /* --- CONTENT 3: SPECIAL HERE (공통) --- */
+    .content-3 {
+        flex-direction: column;
+    }
+
+    .special-right {
+        width: 100%;
+    }
+
+    .special-right-image {
+        min-height: 500px;
+        border-radius: 0;
+    }
+
+    .arrow-decoration {
+        display: none;
+    }
+}
+
+/* --- CONTENT 3: 769px~1400px 전용 --- */
+@media (min-width: 769px) and (max-width: 1400px) {
+    .special-left {
+        padding: 80px 10vw;
+        grid-template-areas:
+            "header header"
+            "image  info"
+            "image  script";
+        grid-template-columns: min(300px, 40%) 1fr;
+        column-gap: 40px;
+        row-gap: 0;
+    }
+
+    .special-script {
+        grid-area: script;
+        align-self: start;
+        margin-top: -30px;
+    }
+
+    .special-header {
+        margin-bottom: 80px;
+    }
+
+    .meditation-info {
+        align-self: start;
+    }
+
+    .meditation-info .facility-slide {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        align-items: baseline;
+        gap: 0 20px;
+    }
+
+    .meditation-info .facility-slide.active {
+        display: grid;
+    }
+
+    .meditation-info .meditation-title {
+        grid-column: 1;
+    }
+
+    .meditation-info .meditation-text {
+        grid-column: 2;
+    }
+
+    .meditation-info .btn-outline {
+        grid-column: 1 / -1;
+        justify-self: start;
+        margin-top: 20px;
+    }
+
+    .meditation-title {
+        margin-bottom: 0;
+    }
+
+    .meditation-text {
+        margin: 0;
+    }
+}
+
+@media (max-width: 1200px) {
+    /* --- CON1-1 --- */
+    .con1-1 {
+        gap: 40px;
+    }
+
+    .con1-1 .content-image {
+        width: auto;
+        flex: 1 1 0;
+        min-width: 0;
+        height: 300px;
+    }
+
+    .content-text {
+        flex: 0 0 220px;
+        min-width: 220px;
+    }
+
+    /* --- CON1-34 --- */
+    .con1-34 {
+        grid-template-columns: minmax(220px, 1fr) minmax(0, 1fr);
+        grid-template-rows: auto auto;
+        column-gap: 40px;
+    }
+
+    .content-text.right {
+        width: auto;
+        min-width: 220px;
+        padding: 30px 0;
+    }
+
+    .con1-34 .content-image.tall {
+        aspect-ratio: 1 / 1;
+        align-self: auto;
+    }
+
+    .con1-34 .content-image.wide {
+        aspect-ratio: 4 / 3;
+        align-self: auto;
+    }
+}
+
+/* ==========================================
    MOBILE RESPONSIVE (max-width: 768px)
    ========================================== */
 
@@ -1058,8 +1225,11 @@ body {
     }
 
     .content-1-inner {
+        width: 100%;
         padding: 60px 20px 0;
+        margin: 0;
         gap: 40px;
+        box-sizing: border-box;
     }
 
     .gradient-circle {
@@ -1078,9 +1248,9 @@ body {
     }
 
     .content-group .content-image.large {
-        width: 360px;
-        height: 194px;
-        aspect-ratio: auto;
+        width: 100%;
+        height: auto;
+        aspect-ratio: 650 / 350;
     }
 
     .con1-item {
@@ -1097,6 +1267,7 @@ body {
         width: 100%;
         height: auto;
         aspect-ratio: 650 / 350;
+        flex: none;
     }
 
     /* con1-34: 그리드 → 세로 스택 */
@@ -1218,7 +1389,7 @@ body {
 
     .special-header {
         order: 1;
-        margin-bottom: 0;
+        margin-bottom: 0 !important;
     }
 
     .special-header p {
@@ -1237,6 +1408,22 @@ body {
         order: 4;
     }
 
+    .meditation-info .facility-slide {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .meditation-info .facility-slide.active {
+        display: flex;
+    }
+
+    .meditation-info .btn-outline {
+        margin-top: 20px;
+        max-width: none;
+    }
+
     .meditation-info .slide-b {
         position: absolute;
         left: 0;
@@ -1247,23 +1434,21 @@ body {
 
     .meditation-title {
         margin-bottom: 20px;
+        text-align: center !important;
     }
 
     .meditation-text {
         max-width: 100%;
         margin-bottom: 20px;
+        text-align: center !important;
     }
 
     .special-script {
         font-size: 80px;
-        margin-top: -30px;
+        margin-top: 0;
         order: 3;
         text-align: center;
         z-index: 1;
-    }
-
-    .meditation-info {
-        order: 4;
     }
 
     .arrow-decoration {

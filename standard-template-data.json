@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.69.0",
-    "generatedAt": "2026-07-01T09:32:43.549925759Z",
+    "version": "1.70.0",
+    "generatedAt": "2026-07-01T09:33:19.320875932Z",
     "templateType": "fullpage_visual",
     "propertyId": "3cb63f91-cc4c-49bd-a107-ab6e9ea71fce",
     "homepageId": "90a49fc8-5757-421a-96c7-246d0070d1e6"
@@ -9,6 +9,7 @@
   "property": {
     "id": "3cb63f91-cc4c-49bd-a107-ab6e9ea71fce",
     "name": "태안 요요 키즈풀빌라 독채 펜션",
+    "nameEn": "Taean Yoyo Kids Poolvilla",
     "description": "오직 우리 아이들만을 위한 공간을 갖고 있는 태안 요요 독채 키즈풀빌라입니다.여행지에서 아이들이 편안하고 즐겁게 놀 수 있는 경험을 느껴보세요",
     "subtitle": "",
     "address": "충남 태안군 남면 안면대로 1281-28 요요키즈풀빌라",
@@ -23,6 +24,9 @@
     "reservationGuide": "※ 야외 인조잔디 위 불꽃놀이 금지, 훼손 시 판매가 보상\n※ 수영장펜션 이용 시 상해,사고,부주의 화재는 투숙객 책임",
     "province": "충청남도",
     "city": "태안군",
+    "domain": "yoyopoolvilla.kr",
+    "realtimeBookingId": "https://map.naver.com/p/entry/place/1256621955",
+    "ybsId": "63600",
     "amenities": [
       "주차장"
     ],
@@ -46,8 +50,7 @@
       "businessEmail": "sleejw0@naver.com",
       "businessType": "corporate",
       "businessCategory": "숙박업",
-      "eCommerceRegistrationNumber": "",
-      "ecommerceRegistrationNumber": ""
+      "eCommerceRegistrationNumber": ""
     },
     "contractInfo": {
       "contractStartDate": "2025-09-10T00:00:00.000Z",
@@ -454,11 +457,7 @@
         "surrounding": [ ],
         "commonArea": [ ]
       }
-    ],
-    "nameEn": "Taean Yoyo Kids Poolvilla",
-    "domain": "yoyopoolvilla.kr",
-    "realtimeBookingId": "https://map.naver.com/p/entry/place/1256621955",
-    "ybsId": "63600"
+    ]
   },
   "rooms": [
     {
@@ -1119,6 +1118,7 @@
     }
   ],
   "homepage": {
+    "id": "90a49fc8-5757-421a-96c7-246d0070d1e6",
     "domain": "yoyopoolvilla.kr",
     "templateType": "fullpage_visual",
     "images": [
@@ -1600,6 +1600,9 @@
             }
           ]
         },
+        "nearbyAttractions": {
+          "sections": [ ]
+        },
         "layoutMap": {
           "sections": [
             {
@@ -1641,35 +1644,6 @@
               }
             }
           ]
-        },
-        "nearbyAttractions": {
-          "sections": [ ]
-        }
-      },
-      "theme": {
-        "font": {
-          "koSub": {
-            "cdn": "https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.min.css",
-            "key": "pretendard",
-            "woff2": null,
-            "family": "Pretendard"
-          },
-          "enMain": {
-            "cdn": "https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap",
-            "key": "cormorant",
-            "woff2": null,
-            "family": "Cormorant"
-          },
-          "koMain": {
-            "cdn": "https://hangeul.pstatic.net/hangeul_static/css/maru-buri.css",
-            "key": "maruburi",
-            "woff2": null,
-            "family": "MaruBuri"
-          }
-        },
-        "color": {
-          "primary": "#EDEDED",
-          "secondary": "#785745"
         }
       },
       "popup": {
@@ -1697,7 +1671,34 @@
           }
         ]
       },
+      "theme": {
+        "font": {
+          "koMain": {
+            "cdn": "https://hangeul.pstatic.net/hangeul_static/css/maru-buri.css",
+            "key": "maruburi",
+            "woff2": null,
+            "family": "MaruBuri"
+          },
+          "koSub": {
+            "cdn": "https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.min.css",
+            "key": "pretendard",
+            "woff2": null,
+            "family": "Pretendard"
+          },
+          "enMain": {
+            "cdn": "https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap",
+            "key": "cormorant",
+            "woff2": null,
+            "family": "Cormorant"
+          }
+        },
+        "color": {
+          "primary": "#EDEDED",
+          "secondary": "#785745"
+        }
+      },
       "property": {
+        "name": "태안 요요 키즈풀빌라 독채 펜션",
         "images": [
           {
             "id": "e0c1bda9-58ae-48a8-937f-823b527b8644",
@@ -1799,7 +1800,6 @@
             "category": "property_exterior"
           }
         ],
-        "name": "태안 요요 키즈풀빌라 독채 펜션",
         "nameEn": "Taean Yoyo Kids Poolvilla"
       },
       "roomtypes": [
@@ -2354,7 +2354,6 @@
           ]
         }
       ]
-    },
-    "id": "90a49fc8-5757-421a-96c7-246d0070d1e6"
+    }
   }
 }
