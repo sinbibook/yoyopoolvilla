@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.70.0",
-    "generatedAt": "2026-07-01T09:33:19.320875932Z",
+    "version": "1.71.0",
+    "generatedAt": "2026-07-01T09:39:27.251754811Z",
     "templateType": "fullpage_visual",
     "propertyId": "3cb63f91-cc4c-49bd-a107-ab6e9ea71fce",
     "homepageId": "90a49fc8-5757-421a-96c7-246d0070d1e6"
@@ -1384,6 +1384,14 @@
                     "blockId": null
                   },
                   {
+                    "id": "53ff18b0-f66a-4735-b523-a7801a86e479",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/main_hero/1782898764661-g85fndcl65.jpg",
+                    "sortOrder": 1,
+                    "description": "",
+                    "isSelected": true,
+                    "blockId": null
+                  },
+                  {
                     "id": "054ee88d-5348-49e7-b1d1-5842501bbece",
                     "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/main_hero/1781761862281-k3xfhnaq6n.jpg",
                     "sortOrder": 1,
@@ -1402,7 +1410,7 @@
                   {
                     "id": "0d6f439b-ae78-44aa-92b1-098447e6bcac",
                     "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/main_hero/1781761862192-rho4vc3yli.jpg",
-                    "sortOrder": 3,
+                    "sortOrder": 2,
                     "description": "",
                     "isSelected": true,
                     "blockId": null
@@ -1410,7 +1418,7 @@
                   {
                     "id": "0c3359cc-7af5-4728-8a1d-3f4f5bccaebe",
                     "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/main_hero/1781761862187-va9t2y6m0k.jpg",
-                    "sortOrder": 4,
+                    "sortOrder": 3,
                     "description": "",
                     "isSelected": true,
                     "blockId": null
