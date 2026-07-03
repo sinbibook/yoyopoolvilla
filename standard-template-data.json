@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.97.0",
-    "generatedAt": "2026-07-03T07:08:33.467219642Z",
+    "version": "1.98.0",
+    "generatedAt": "2026-07-03T07:13:38.126361885Z",
     "templateType": "fullpage_visual",
     "propertyId": "3cb63f91-cc4c-49bd-a107-ab6e9ea71fce",
     "homepageId": "90a49fc8-5757-421a-96c7-246d0070d1e6"
@@ -2673,7 +2673,7 @@
               "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/roomtype_exterior/1783062505525-k8as470p58.jpg",
               "sortOrder": 7,
               "description": "신나는 키즈존",
-              "isSelected": false,
+              "isSelected": true,
               "blockId": "3f9ab2c3-7cd5-495c-af33-a9d9e315a571",
               "category": "roomtype_exterior"
             },
