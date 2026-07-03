@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.98.0",
-    "generatedAt": "2026-07-03T07:13:38.126361885Z",
+    "version": "1.99.0",
+    "generatedAt": "2026-07-03T07:17:36.011414307Z",
     "templateType": "fullpage_visual",
     "propertyId": "3cb63f91-cc4c-49bd-a107-ab6e9ea71fce",
     "homepageId": "90a49fc8-5757-421a-96c7-246d0070d1e6"
@@ -1385,49 +1385,33 @@
                 "title": " ",
                 "images": [
                   {
-                    "id": "04e0647e-1ddf-4036-a6e5-b35534dcb52b",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/index_essence/1781746807615-j9q462gao4.jpg",
+                    "id": "623361f2-3712-47dc-8d7e-8c49431d79a1",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/index_essence/1783063052974-1xr42k5p97.jpg",
                     "sortOrder": 0,
-                    "description": "하루 한 팀만을 위한 프라이빗 독채, 요요키즈풀빌라 펜션입니다.\n아이들의 즐거움과 가족의 편안한 휴식이 함께하는 특별한 공간입니다.\n주변 방해 없이 우리 가족만의 여행과 소중한 추억을 온전히 즐겨보세요.",
+                    "description": "",
                     "isSelected": true,
                     "blockId": null
                   },
                   {
-                    "id": "4f3b0516-f3cd-46d8-9637-ac1d50a1fd89",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/index_essence/1782897755638-4pvaanenob.jpg",
+                    "id": "57da00ff-a0b8-4737-8b2b-a09a8ab00950",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/index_essence/1783063052974-3l5il25gix.jpg",
                     "sortOrder": 1,
-                    "description": "실내수영장, 야외마당, 테라스 바비큐, 감성 캠프파이어,\n키즈 놀이시설까지 한 공간에서 모두 즐기실 수 있습니다.\n아이들은 신나게 뛰어놀고 어른들은 여유로운 쉼을 누릴 수 있어\n온가족 여행에 잘 어울립니다.\n프라이빗한 독채 공간에서 사계절 내내 더욱 자유롭고\n특별한 시간을 만들어보세요.",
+                    "description": "",
                     "isSelected": true,
                     "blockId": null
                   },
                   {
-                    "id": "046e3de6-6aac-4f52-a0bd-2a7eb6a4d41c",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/index_essence/1782897755656-gjyykeemfc.jpg",
+                    "id": "b4838e56-2173-4ff1-bdf3-530dccca6b9d",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/index_essence/1783063052983-z2tbpwijxf.jpg",
                     "sortOrder": 2,
                     "description": "",
                     "isSelected": true,
                     "blockId": null
                   },
                   {
-                    "id": "d24280d8-b69b-4ab9-933d-b892b06108b6",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/index_essence/1781746807614-k0i9tg96e6.jpg",
+                    "id": "d4c3449d-d0cb-4adf-a2c5-51004b95a126",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/index_essence/1783063052980-t0p6ki8ex9.jpg",
                     "sortOrder": 3,
-                    "description": "",
-                    "isSelected": true,
-                    "blockId": null
-                  },
-                  {
-                    "id": "3ba16ed6-1dca-469b-a78e-663f38927fc5",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/index_essence/1782897755644-haljqjru0j.jpg",
-                    "sortOrder": 4,
-                    "description": "",
-                    "isSelected": true,
-                    "blockId": null
-                  },
-                  {
-                    "id": "442bdd77-74b3-4bb9-b9fb-dedcbf806b73",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/90a49fc8-5757-421a-96c7-246d0070d1e6/index_essence/1781746807665-845blaxz90.jpg",
-                    "sortOrder": 5,
                     "description": "",
                     "isSelected": true,
                     "blockId": null
