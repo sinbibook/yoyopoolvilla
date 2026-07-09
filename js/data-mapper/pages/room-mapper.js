@@ -103,7 +103,6 @@ class RoomMapper extends BaseDataMapper {
     /**
      * 히어로 텍스트 매핑
      * [data-room-name] → 객실명
-     * [data-room-description] → 커스텀 설명 (없으면 시스템 description)
      */
     mapHeroContent() {
         const room = this.getCurrentRoom();
@@ -112,13 +111,6 @@ class RoomMapper extends BaseDataMapper {
         const nameEl = this.safeSelect('[data-room-name]');
         if (nameEl) {
             nameEl.textContent = this.getRoomName(room);
-        }
-
-        const descEl = this.safeSelect('[data-room-description]');
-        if (descEl) {
-            const pageData = this.getCurrentRoomPageData();
-            const description = pageData?.sections?.[0]?.hero?.description || room.description;
-            descEl.innerHTML = this._formatTextWithLineBreaks(description, '객실 설명');
         }
     }
 
