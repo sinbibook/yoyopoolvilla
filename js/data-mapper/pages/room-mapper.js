@@ -307,9 +307,6 @@ class RoomMapper extends BaseDataMapper {
                 const h3 = document.createElement('h3');
                 h3.textContent = this.getRoomName(room);
 
-                const p = document.createElement('p');
-                p.textContent = this.sanitizeText(room.description, '');
-
                 const roomId = room.id;
                 const btn = document.createElement('button');
                 btn.className = 'btn-more';
@@ -320,7 +317,6 @@ class RoomMapper extends BaseDataMapper {
                 });
 
                 infoDiv.appendChild(h3);
-                infoDiv.appendChild(p);
                 infoDiv.appendChild(btn);
 
                 card.appendChild(imageDiv);
